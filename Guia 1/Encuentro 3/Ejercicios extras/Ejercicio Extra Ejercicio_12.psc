@@ -3,11 +3,9 @@
 
 Algoritmo ejercicio_12
 	Definir num1, num2 Como Entero
-	Definir ope1 Como Real
 	Escribir "Dime un numero"
 	Leer num1
 	Escribir "Dime otro numero"
 	Leer num2
-	ope1 = ABS(num1 - num2)
-	Escribir "Esta es la diferencia absoluta entre tus numeros: " ope1
+	Escribir "Esta es la diferencia absoluta entre tus numeros: " ABS(num1 - num2)
 FinAlgoritmo
