@@ -1,12 +1,20 @@
 # EggEducacion
 
-Guia de ejercicios de la plataforma Egg Educacion perteneciente al curso PDC (Programacion desde Cero), los ejercicios estan planteados para resolverlos en PSeInt(interprete de pseudocódigo). 
-En cada carpeta se encuentran las guias con sus respectivos ejercicios de ejemplo y practicos resueltos (Es una posible interpretacion de la resolucion de los ejercicios, hay muchas formas de llegar al resultado de la consigna y todas son validas por igual).
+Guia de ejercicios de la plataforma EggEducacion perteneciente al curso PDC (Programación desde Cero), los ejercicios están planteados para resolverlos en PSeInt (interprete de pseudocódigo). 
 
-[Guia 1](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%201)
+En cada carpeta se encuentran las guías con sus respectivos ejercicios de ejemplo y prácticos resueltos (Es una posible interpretación de la resolución de los ejercicios, hay muchas formas de llegar al resultado y todas son válidas por igual).
 
-[Guia 2](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%202)
- 
-[Guia 3](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%203)
 
-[Guia 4](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%204)
+[Guía 1](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%201)
+
+[Guía2](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%202)
+
+[Guía 3](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%203)
+
+[Guía 4](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%204)
+
+[Ejercicio Integrador]() 
+
+## Guía Mentores
+
+![](https://github.com/Leo-Quiroga-19/EggEducacion-PDC/blob/main/Guiamentores.jpg)
