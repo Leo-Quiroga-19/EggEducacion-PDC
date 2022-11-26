@@ -1,31 +1,36 @@
-Funcion resultado <- CalcularJornal ( dia, turno, horas, festivo )
-	Si turno == 1 Entonces
-		resultado = resultado + (horas * 90)
-	SiNo
-		Si turno == 2 Entonces
-			resultado = resultado + (horas * 125)
-		Fin Si
-	Fin Si
+Algoritmo sin_titulo
+	Definir nombre, dia, turno, festivo Como Caracter
+	Definir horas Como Entero
 	
-Fin Funcion
-
-Algoritmo ejercicio4
-	Definir dia, turno, festivo Como Entero
-	Definir nombre Como Caracter
-	Definir horas Como Real
-	Escribir "Dime el nombre del trabajador"
+	Escribir "ingrese el nombre"
 	Leer nombre
-	Escribir "Dime el dia de la semana que es con un numero del 1(Lunes) al 7(Domingo)"
-	Leer dia
-	Escribir "Dime en que turno trabajo."
-	Escribir "Utiliza 1 Si fue diurno"
-	Escribir "Utiliza 2 Si fue nocturno"
+	Escribir "ingrese el dia laboral de la semana "
+	Leer dia	
+	Escribir "ingrese el turno (diurno o nocturno)"
 	Leer turno
-	Escribir "Cuantas horas trabajo? Utiliza numeros con decimales. Ej: 5.15"
+	Escribir "ingrese la cantidad de horas"
 	Leer horas
-	Escribir "Es dia festivo?"
-	Escribir "Utiliza 1 Si es feriado"
-	Escribir "Utiliza 2 si NO es feriado"
+	Escribir "El dia de la semana es feriado si o no "
 	Leer festivo
-	Escribir "Para " nombre " el jornal diario que le corresponde es de: " CalcularJornal(dia, turno, horas, festivo)
+	Escribir "El sueldo es de: $"  calcularSueldo(turno, horas, festivo)
+	
 FinAlgoritmo
+
+Funcion tarifa = calcularSueldo( turno, horas, festivo )
+	Definir tarifa Como Real
+	tarifa=0
+    Segun turno Hacer
+		"diurno":
+			si festivo = "si" Entonces
+			    tarifa = (horas * 90) * 1.1
+			SiNo
+				tarifa = horas * 90
+		    FinSi
+		"nocturno":
+			si festivo = "si" Entonces
+			    tarifa = (horas * 125) * 1.15
+			SiNo
+				tarifa = horas * 125
+		    FinSi
+	Fin Segun
+Fin Funcion
