@@ -1,6 +1,6 @@
 # EggEducacion
 
-Guia de ejercicios de la plataforma EggEducacion perteneciente al curso PDC (Programación desde Cero), los ejercicios están planteados para resolverlos en PSeInt (interprete de pseudocódigo). 
+Guia de ejercicios de la plataforma EggEducacion perteneciente al curso PDC (Programación desde Cero), los ejercicios están planteados para resolverlos en *PSeInt* (interprete de pseudocódigo). 
 
 En cada carpeta se encuentran las guías con sus respectivos ejercicios de ejemplo y prácticos resueltos (Es una posible interpretación de la resolución de los ejercicios, hay muchas formas de llegar al resultado y todas son válidas por igual).
 
