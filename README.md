@@ -7,7 +7,7 @@ En cada carpeta se encuentran las guías con sus respectivos ejercicios de ejemp
 
 [Guía 1](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%201)
 
-[Guía2](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%202)
+[Guía 2](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%202)
 
 [Guía 3](https://github.com/Leo-Quiroga-19/EggEducacion/tree/main/Guia%203)
 
